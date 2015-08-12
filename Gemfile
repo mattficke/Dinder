@@ -1,7 +1,10 @@
 source 'https://rubygems.org'
 
-
+# Devise for user auth
 gem 'devise'
+
+# Postgres
+gem 'pg'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
