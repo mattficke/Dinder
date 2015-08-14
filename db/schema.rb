@@ -17,9 +17,9 @@ ActiveRecord::Schema.define(version: 20150812200046) do
   enable_extension "plpgsql"
 
   create_table "messages", force: :cascade do |t|
-    t.text     "description"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.text     "body"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
     t.integer  "user_id"
     t.integer  "post_id"
   end
