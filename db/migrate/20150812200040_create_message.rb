@@ -2,7 +2,7 @@ class CreateMessage < ActiveRecord::Migration
   def change
     create_table :messages do |t|
 
-      t.text :description
+      t.text :body
 
       t.timestamps null: false
 
